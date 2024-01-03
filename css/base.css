@@ -536,14 +536,14 @@ h6 {
 }
 
 .topbar span {
-  color: #2b376e;
+  color: var(--wave-main);
 }
 header#mainheader {
   width: 100%;
-  background-color: #2b376e;
+  background-color: var(--main);
 }
 #footer {
-  background-color: #2b376e;
+  background-color: var(--main);
   clear: both;
   margin-top: 20px;
   color: white;
@@ -571,7 +571,7 @@ header#mainheader {
 
 /* Forms  */
 form {
-  /* border: 3px solid #2a7997; */
+  /* border: 3px solid var(--main); */
   padding-top: 20px;
   margin-bottom: 10px;
 }
@@ -714,7 +714,7 @@ video {
   clear: both;
 }
 header#mainheader {
-  background-color: #2b376e;
+  background-color: var(--main);
 }
 
 header#mainheader:after {
