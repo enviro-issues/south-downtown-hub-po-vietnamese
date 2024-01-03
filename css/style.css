@@ -27,7 +27,7 @@ h1 {
 
 .emph {
   margin-top: 2px;
-  border-top: 4px solid #2a7997;
+  border-top: 4px solid var(--main);
 }
 
 button {
@@ -38,7 +38,7 @@ button {
   padding: 0px 0px 0px 0px;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: #d6078e !important;
+  background-color: var(--action-orange) !important;
 }
 
 .outbox {
@@ -49,7 +49,7 @@ button {
   background-color: #f4f4f4;
   padding: 25px;
   margin: 0 0 20px 0;
-  border-top: 4px solid #2a7997;
+  border-top: 4px solid var(--main);
   border-left: 2px solid #ffffff;
   min-height: 280px;
   border-right: 2px solid #ffffff;
@@ -67,7 +67,7 @@ button {
 }
 
 .callout {
-  border: 2px solid #2a7997;
+  border: 2px solid var(--main);
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -81,17 +81,17 @@ button {
 
 .pinksurvey {
   background-color: #eaeaea;
-  border: 2px solid #d6078e;
+  border: 2px solid var(--action-orange);
 }
 
 .tealsurvey {
   background-color: #eaeaea;
-  border: 2px solid var(--wave-teal);
+  border: 2px solid var(--dark-teal);
 }
 
 .gb {
   color: #ffffff;
-  background-color: #2a7997;
+  background-color: var(--main);
   padding: 10px 0px 10px 10px;
   margin: 0;
 }
@@ -113,7 +113,7 @@ h3 {
 
 .entryhead {
   color: #ffffff;
-  background-color: #2a7997;
+  background-color: var(--main);
   padding: 10px 0px 10px 20px;
   margin-left: 0;
   margin-right: 0;
@@ -121,7 +121,7 @@ h3 {
 }
 
 .entry-header {
-  background-color: #2b376e;
+  background-color: var(--main);
   color: white;
   width: 100%;
   padding: 25px 0px 25px 0px;
@@ -138,7 +138,7 @@ h3 {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #ffffff;
-  color: #2a7997;
+  color: var(--main);
   cursor: pointer;
   /* padding: 18px; */
   width: 100%;
@@ -214,7 +214,7 @@ p {
 
 .blbutton {
   color: #ffffff !important;
-  background: #d6078e !important;
+  background: var(--action-orange) !important;
   width: 100%;
   max-width: 190px;
 
@@ -325,7 +325,7 @@ body {
 
 .bboxHead {
   color: #ffffff;
-  background-color: #2b376e;
+  background-color: var(--main);
   padding: 10px 0px 10px 10px;
   margin-left: 0;
   margin-right: 0;
@@ -338,7 +338,7 @@ body {
 }
 
 .bbox {
-  color: #2b376e;
+  color: var(--main);
 }
 
 .buttonLinkbox {
@@ -346,7 +346,7 @@ body {
 }
 
 .borderbox2 {
-  background-color: #2b376e;
+  background-color: var(--main);
   border: 0.5px solid #000000;
 }
 
@@ -355,7 +355,11 @@ body {
 }
 
 a {
-  color: #007bc1;
+  color: var(--dark-teal);
+}
+
+a:hover {
+    color: var(--wave-blue);
 }
 
 nav.top_nav {
@@ -374,7 +378,7 @@ nav.top_nav a {
 }
 
 nav.top_nav a:hover {
-  color: #2a7997;
+  color: var(--main);
 }
 
 nav.top_nav a:before {
@@ -384,7 +388,7 @@ nav.top_nav a:before {
   height: 4px;
   bottom: -1px;
   left: 0;
-  background-color: #2a7997;
+  background-color: var(--main);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -401,7 +405,7 @@ nav.top_nav a.active:before {
 
 /* 
 .active {
-  color: #2a7997;
+  color: var(--main);
 } */
 .nulx {
   text-decoration: underline;
@@ -434,15 +438,15 @@ progress {
 
 /* value: */
 progress::-webkit-progress-value {
-  background-color: #2a7997 !important;
+  background-color: var(--main) !important;
 }
 
 progress::-moz-progress-bar {
-  background-color: #2a7997 !important;
+  background-color: var(--main) !important;
 }
 
 progress {
-  color: #2a7997;
+  color: var(--main);
 }
 
 .timelinepage {
@@ -451,7 +455,7 @@ progress {
 }
 
 .timelinepage .timeline-wrapper {
-  border-left: 4px solid #2a7997;
+  border-left: 4px solid var(--main);
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
   position: relative;
@@ -493,7 +497,7 @@ progress {
 }
 
 .timelinepage .timeline-wrapper .tl.now:after {
-  box-shadow: 0 0 0 4px #2a7997;
+  box-shadow: 0 0 0 4px var(--main);
   left: -23.85px;
   background: white;
   border-radius: 50%;
@@ -504,9 +508,9 @@ progress {
 }
 
 .timelinepage .timeline-wrapper .tl.dot:after {
-  box-shadow: 0 0 0 4px #2a7997;
+  box-shadow: 0 0 0 4px var(--main);
   left: -23.85px;
-  background: #2a7997;
+  background: var(--main);
   border-radius: 50%;
   height: 11px;
   width: 11px;
@@ -515,7 +519,7 @@ progress {
 }
 
 .timelinepage .timeline-wrapper .tl:after {
-  background: #2a7997;
+  background: var(--main);
 }
 
 .fa-star {
@@ -551,7 +555,7 @@ i.fa.fa-check {
 }
 
 .stactionpink {
-  color: #d6078e;
+  color: var(--action-orange);
 }
 
 .stlinelightblue {
@@ -559,7 +563,7 @@ i.fa.fa-check {
 }
 
 .stwaveteal {
-  color: #2a7997;
+  color: var(--main);
 }
 
 .rustyred {

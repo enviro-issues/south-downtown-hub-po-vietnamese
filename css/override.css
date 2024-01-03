@@ -1,15 +1,15 @@
 :root {
-  --wave-blue: #2b376e;
-  --wave-teal: #2a7997;
-  --dark-teal: #007297;
-  --wave-green: #008281;
+  --main: #6f4375;
+  --wave-blue: #1C5199;
+  --dark-teal: #438B9B;
+  --wave-green: #2C8340;
   --railway-gray: #5a5a5a;
   --highway-gray: #787878;
   --service-gray: #aaaaaa;
   --roadway-gray: #d9d9d9;
   --land-gray: #f0f0f0;
   --line-pink: #d6078e;
-  --action-orange: #f38b00;
+  --action-orange: #E26728;
 }
 
 ul.no-style {
@@ -130,7 +130,7 @@ figcaption.s2:visited {
 }
 
 .footer-banner {
-  background-color: var(--wave-teal);
+  background-color: var(--dark-teal);
   color: #fff;
 }
 .footer-banner strong {
@@ -154,9 +154,9 @@ a.pbutton,
 #sg_SubmitButton,
 .pbutton,
 .skip-nav-link:focus {
-  color: var(--line-pink);
+  color: var(--action-orange);
   background-color: #fff;
-  border: 2px solid var(--line-pink);
+  border: 2px solid var(--action-orange);
   font-weight: 600;
   font-size: 1.8rem;
   border-radius: 5px;
@@ -168,7 +168,7 @@ a.pbutton,
 #sg_SubmitButton:hover,
 .pbutton:hover{
   color: #ffffff;
-  background: #d6078e;
+  background: var(--action-orange);
 }
 .pbutton a {
   color: #ffffff;
@@ -191,13 +191,13 @@ a.pbutton,
   margin: 0;
 }
 #story-1 .text-box {
-  background-color: var(--wave-teal);
+  background-color: var(--wave-blue);
 }
 #story-2 .text-box {
   background-color: var(--wave-green);
 }
 #story-3 .text-box {
-  background-color: var(--wave-teal);
+  background-color: var(--wave-blue);
 }
 #highlights {
   overflow: hidden;
