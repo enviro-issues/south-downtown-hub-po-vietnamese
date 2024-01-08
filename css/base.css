@@ -302,7 +302,6 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4,
 h6 {
@@ -310,6 +309,7 @@ h6 {
   font-weight: 800;
   font-style: italic;
 }
+h2,
 h5 {
   font-family: 'Bahnschrift', sans-serif;
   font-weight: 800;

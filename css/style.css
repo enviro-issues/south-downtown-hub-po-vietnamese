@@ -130,8 +130,6 @@ h3 {
 
 .entry-header h2 {
   font-weight: 900;
-  font-style: italic;
-
   margin: auto;
 }
 
@@ -232,11 +230,10 @@ p {
 }
 
 .navbar-nav a {
-  font-weight: 800;
+  font-weight: 700;
   font-family: "Bahnschrift Regular Sans", Arial, sans-serif;
   color: #262626;
   font-size: 17px;
-  font-style: italic;
   margin: -5px 15px 0 3px;
 }
 
