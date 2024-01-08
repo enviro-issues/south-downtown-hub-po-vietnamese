@@ -1,5 +1,5 @@
 .hero {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Bahnschrift Regular Sans", sans-serif;
   font-size: 1.3em;
   padding: 10px 0;
 }
@@ -222,7 +222,7 @@ p {
   font-size: 1.2em !important;
   font-style: italic;
   font-weight: 900 !important;
-  font-family: "Nunito Sans", Arial, sans-serif !important;
+  font-family: "Bahnschrift Regular Sans", Arial, sans-serif !important;
 }
 
 
@@ -233,7 +233,7 @@ p {
 
 .navbar-nav a {
   font-weight: 800;
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: "Bahnschrift Regular Sans", Arial, sans-serif;
   color: #262626;
   font-size: 17px;
   font-style: italic;
@@ -242,7 +242,7 @@ p {
 
 .dropdown-menu {
   font-weight: 700;
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: "Bahnschrift Regular Sans", Arial, sans-serif;
   color: #2d2d2d;
   font-size: 16px;
   font-style: italic;
