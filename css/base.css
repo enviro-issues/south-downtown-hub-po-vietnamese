@@ -265,9 +265,6 @@ h4 {
   font-size: 1.7rem;
   font-weight: 700;
 }
-h5 {
-  font-style: normal !important;
-}
 form [type="submit"] {
   display: block;
   margin-bottom: 1.5em;
@@ -509,21 +506,6 @@ form [type="submit"] {
   font-weight: 300;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Bahnschrift';
-  src: url('path/to/fonts/Bahnschrift-Regular.woff2') format('woff2'),
-       url('path/to/fonts/Bahnschrift-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Bahnschrift';
-  src: url('path/to/fonts/Bahnschrift-Light.woff2') format('woff2'),
-       url('path/to/fonts/Bahnschrift-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
 
 /* ==========================================================================
 Fonts
@@ -542,11 +524,14 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-family: 'Bahnschrift', sans-serif;
   font-weight: 800;
   font-style: italic;
+}
+h5 {
+  font-family: 'Bahnschrift', sans-serif;
+  font-weight: 800;
 }
 /* Layout */
 .topbar {
