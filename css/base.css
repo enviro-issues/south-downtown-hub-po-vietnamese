@@ -298,20 +298,20 @@ label {
 
 html,
 body {
-  font-family: 'Bahnschrift', sans-serif;
+  font-family: 'Bahnschrift Regular', sans-serif;
 }
 
 h1,
 h3,
 h4,
 h6 {
-  font-family: 'Bahnschrift', sans-serif;
+  font-family: 'Bahnschrift Regular', sans-serif;
   font-weight: 800;
   font-style: italic;
 }
 h2,
 h5 {
-  font-family: 'Bahnschrift', sans-serif;
+  font-family: 'Bahnschrift Regular', sans-serif;
   font-weight: 800;
 }
 /* Layout */
@@ -384,7 +384,7 @@ button,
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Bahnschrift', sans-serif;
+  font-family: 'Bahnschrift Regular', sans-serif;
   font-size: 1.7rem;
   font-weight: bold;
   line-height: 1;
