@@ -1,5 +1,5 @@
 .hero {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Bahnschrift Regular Sans", sans-serif;
   font-size: 1.3em;
   padding: 10px 0;
 }
@@ -130,8 +130,6 @@ h3 {
 
 .entry-header h2 {
   font-weight: 900;
-  font-style: italic;
-
   margin: auto;
 }
 
@@ -222,7 +220,7 @@ p {
   font-size: 1.2em !important;
   font-style: italic;
   font-weight: 900 !important;
-  font-family: "Nunito Sans", Arial, sans-serif !important;
+  font-family: "Bahnschrift Regular Sans", Arial, sans-serif !important;
 }
 
 
@@ -232,17 +230,16 @@ p {
 }
 
 .navbar-nav a {
-  font-weight: 800;
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-family: "Bahnschrift Regular Sans", Arial, sans-serif;
   color: #262626;
   font-size: 17px;
-  font-style: italic;
   margin: -5px 15px 0 3px;
 }
 
 .dropdown-menu {
   font-weight: 700;
-  font-family: "Nunito Sans", Arial, sans-serif;
+  font-family: "Bahnschrift Regular Sans", Arial, sans-serif;
   color: #2d2d2d;
   font-size: 16px;
   font-style: italic;
@@ -277,7 +274,6 @@ h4 {
 h5 {
   font-size: 1.3em;
   font-size: 700;
-  font-style: italic;
 }
 
 .pix {
@@ -303,7 +299,7 @@ h5 {
 
 li {
   font-size: 1.15em;
-  font-family: Hind, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Bahnschrift Regular', sans-serif;;
 }
 
 /* p {
