@@ -437,6 +437,12 @@ li {
   padding: 0 15px !important;
 }
 
+.topbar .goog-te-gadget,
+#google_translate_element a {
+    color: #fff;
+    font-weight: normal;
+}
+
 .topbar .goog-te-gadget select.goog-te-combo {
   margin: 0 !important;
   padding: 0 15px !important;
