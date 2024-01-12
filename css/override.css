@@ -45,8 +45,18 @@ li {
   }
 }
 
-.sota-logo2 {
-  height: 111px;
+img.sota-logo2 {
+    margin: 20px 0px 0px 4px;
+    max-width: 200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 3px;
+    height: 175px;
+}
+
+.col-lg-4.logo {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .urgent-banner {
