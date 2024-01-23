@@ -565,4 +565,7 @@ i.fa.fa-check {
 .rustyred {
   color: #a83b24;
 }
-
+.button{
+  color: white;
+  background-color: #6f4375;
+}
