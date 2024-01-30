@@ -443,6 +443,16 @@ li {
     font-weight: normal;
 }
 
+.topbar h3 {
+    padding: 20px 20px 15px 20px;
+}
+
+@media (max-width: 768px) {
+    .topbar h3 {
+        padding: 20px 20px 15px 0px;
+    }
+}
+
 .topbar .goog-te-gadget select.goog-te-combo {
   margin: 0 !important;
   padding: 0 15px !important;
