@@ -333,6 +333,12 @@ header#mainheader {
   color: white;
   padding: 20px 0;
 }
+
+#footer .px-4 {
+    margin-bottom: 40px;
+}
+
+
 #footer a,
 #footer a:hover {
   color: white;
@@ -351,6 +357,9 @@ header#mainheader {
 #footer a.sociallink,
 #footer a.sociallink:hover {
   text-decoration: none;
+    margin: 0 25px 0 0;
+    margin: 0px 25px 25px 0px;
+    display: inline-block;
 }
 
 /* Forms  */
@@ -429,7 +438,7 @@ li {
 
 .topbar #google_translate_element {
   float: right;
-  margin: 0 20px 0 0;
+  margin: 0 14px 0 0;
 }
 
 .topbar #google_translate_element select {
@@ -441,6 +450,16 @@ li {
 #google_translate_element a {
     color: #fff;
     font-weight: normal;
+}
+
+.topbar h3 {
+    padding: 20px 20px 15px 20px;
+}
+
+@media (max-width: 768px) {
+    .topbar h3 {
+        padding: 20px 20px 15px 0px;
+    }
 }
 
 .topbar .goog-te-gadget select.goog-te-combo {
@@ -529,8 +548,12 @@ header#mainheader h1 {
   span.timespan {
     padding-left: 10px;
   }
+  
+}
 
-  .topbar #google_translate_element {
-    float: none;
-  }
+@media screen and (max-width: 767px) {
+
+    .topbar #google_translate_element {
+        float: none;
+      }
 }
