@@ -429,7 +429,7 @@ li {
 
 .topbar #google_translate_element {
   float: right;
-  margin: 0 20px 0 0;
+  margin: 0 14px 0 0;
 }
 
 .topbar #google_translate_element select {
@@ -539,8 +539,12 @@ header#mainheader h1 {
   span.timespan {
     padding-left: 10px;
   }
+  
+}
 
-  .topbar #google_translate_element {
-    float: none;
-  }
+@media screen and (max-width: 767px) {
+
+    .topbar #google_translate_element {
+        float: none;
+      }
 }
