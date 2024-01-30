@@ -333,6 +333,12 @@ header#mainheader {
   color: white;
   padding: 20px 0;
 }
+
+#footer .px-4 {
+    margin-bottom: 40px;
+}
+
+
 #footer a,
 #footer a:hover {
   color: white;
